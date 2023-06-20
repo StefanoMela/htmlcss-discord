@@ -8,11 +8,11 @@
 
 /* GENERICS */
 
-body{
+body {
   font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -23,12 +23,6 @@ img{
 
 .flex {
   display: flex;
-}
-
-.debug {
-  min-height: 250px;
-  min-width: 400px;
-  border: 2px solid black;
 }
 
 .justify-center {
@@ -58,13 +52,13 @@ header {
   padding: 1rem 2rem;
 }
 
-.menu-links>a{
+.menu-links>a {
   color: white;
   text-decoration: none;
 }
 
-.btn{
-  border:  1px solid transparent;
+.btn {
+  border: 1px solid transparent;
   border-radius: 2rem;
   padding: 1rem 2rem;
   font-size: 1rem;
@@ -87,35 +81,35 @@ header {
   color: white;
 }
 
-.jumbotron.container{
+.jumbotron.container {
   max-width: 950px;
 }
 
-.title{
+.title {
   font-size: 4rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.bold{
+.bold {
   font-size: 25px;
-  text-align:center;
+  text-align: center;
   margin-bottom: 2rem;
   line-height: 2.5rem;
 }
 
 
-.btn.med{
+.btn.med {
   font-size: 24px;
   text-align: center;
   margin: 0 1rem 2rem 0;
 }
 
-.fa-arrow-down-long{
+.fa-arrow-down-long {
   margin-right: 1rem;
 }
 
-.btn.big{
+.btn.big {
   font-size: 24px;
   text-align: center;
   margin: 0 1rem 2rem 0;
@@ -125,6 +119,8 @@ header {
 
 .bgc-white {
   background-color: #ffff;
+  min-height: 700px;
+  padding: 2rem 4rem;
 }
 
 .bgc-grey {
@@ -135,20 +131,32 @@ header {
   background-color: #23272a;
 }
 
-.main-col {
+.debug.main-col {
   width: 60%;
-  height: 300px;
   background-color: #1f90ff;
   border: 2px dashed black;
   margin: 24px 0;
 }
 
-.secondary-col {
+.img-col {
+  width: 60%;
+  margin: 1rem 2rem;
+}
+
+.debug.secondary-col {
   width: 40%;
   height: 300px;
   background-color: #ffc0cb;
   border: 2px dashed black;
   margin: 24px 0;
+}
+
+.text-col {
+  width: 40%;
+}
+
+.initial {
+  text-align: start;
 }
 
 .greenSquare {
@@ -163,7 +171,7 @@ header {
   border-bottom: 1px solid white;
 }
 
-.main-col > div {
+.main-col>div {
   width: calc(100% / 4);
   border: 1px dashed white;
 }
