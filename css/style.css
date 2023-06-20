@@ -29,8 +29,8 @@ img {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.justify-around {
+  justify-content: space-around;
 }
 
 /* HEADER */
@@ -62,6 +62,7 @@ header {
   border-radius: 2rem;
   padding: 1rem 2rem;
   font-size: 1rem;
+  text-align: center;
 }
 
 /* MAIN */
@@ -98,24 +99,22 @@ header {
   line-height: 2.5rem;
 }
 
-
 .btn.med {
   font-size: 24px;
-  text-align: center;
   margin: 0 1rem 2rem 0;
+}
+
+.btn.big {
+  font-size: 24px;
+  margin: 0 1rem 2rem 0;
+  color: white;
+  background-color: #22272A;
 }
 
 .fa-arrow-down-long {
   margin-right: 1rem;
 }
 
-.btn.big {
-  font-size: 24px;
-  text-align: center;
-  margin: 0 1rem 2rem 0;
-  color: white;
-  background-color: #22272A;
-}
 
 .bgc-white {
   background-color: #ffff;
@@ -159,6 +158,22 @@ header {
 
 .initial {
   text-align: start;
+}
+
+.mega.container{
+  text-align: center;
+}
+
+.small-title{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.btn.med.footer{
+  margin: 1rem 0;
+  color: white;
+  background-color: #8EA1E1;
 }
 
 .greenSquare {
