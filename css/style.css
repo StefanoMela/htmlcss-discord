@@ -38,6 +38,21 @@ img {
   justify-content: space-between;
 }
 
+.bgc-white {
+  background-color: #ffff;
+  padding: 2rem 4rem;
+}
+
+.bgc-grey {
+  background-color: #F6F6F6;
+  padding: 2rem 4rem;
+}
+
+.bgc-black {
+  background-color: #23272a;
+  padding: 2rem 4rem;
+}
+
 /* HEADER */
 
 header {
@@ -120,23 +135,7 @@ header {
   margin-right: 1rem;
 }
 
-
-.bgc-white {
-  background-color: #ffff;
-  min-height: 700px;
-  padding: 2rem 4rem;
-}
-
-.bgc-grey {
-  background-color: #F6F6F6;
-  min-height: 700px;
-  padding: 2rem 4rem;
-}
-
-.bgc-black {
-  background-color: #23272a;
-  padding: 2rem 4rem;
-}
+/* MAIN SECTION */
 
 .img-col {
   width: 60%;
@@ -171,7 +170,6 @@ header {
 /* FOOTER */
 
 footer {
-  height: 250px;
   background-color: #22272a;
 }
 
