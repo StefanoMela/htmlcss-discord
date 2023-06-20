@@ -42,7 +42,7 @@ img{
 /* HEADER */
 
 header {
-  background-color: #3261E1;
+  background-color: #255EE9;
   font-weight: 500;
   font-size: 1.1rem;
 }
@@ -66,22 +66,61 @@ header {
 .btn{
   border:  1px solid transparent;
   border-radius: 2rem;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   font-size: 1rem;
 }
 
 /* MAIN */
 
+/* HERO SECTION */
+
 .hero {
-  background-color: #00098b;
+  background-image: url(/img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 620px;
+  padding: 3rem 6rem;
 }
 
-.square {
-  background-color: #ee82ee;
-  width: 500px;
-  height: 250px;
-  border: 2px dashed black;
-  margin: 24px 0;
+.jumbotron {
+  text-align: center;
+  color: white;
+}
+
+.jumbotron.container{
+  max-width: 950px;
+}
+
+.title{
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bold{
+  font-size: 25px;
+  text-align:center;
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+}
+
+
+.btn.med{
+  font-size: 24px;
+  text-align: center;
+  margin: 0 1rem 2rem 0;
+}
+
+.fa-arrow-down-long{
+  margin-right: 1rem;
+}
+
+.btn.big{
+  font-size: 24px;
+  text-align: center;
+  margin: 0 1rem 2rem 0;
+  color: white;
+  background-color: #22272A;
 }
 
 .bgc-white {
