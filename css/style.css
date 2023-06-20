@@ -124,7 +124,9 @@ header {
 }
 
 .bgc-grey {
-  background-color: #d3d3d3;
+  background-color: #F6F6F6;
+  min-height: 700px;
+  padding: 2rem 4rem;
 }
 
 .bgc-black {
