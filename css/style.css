@@ -157,8 +157,9 @@ header {
 .small-title {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: url(../img/stars.svg) no-repeat bottom center;
-  background-size: auto;
+  background: url(../img/stars.svg) no-repeat center center;
+  background-size: 40%;
+  padding: 4rem 4rem;
 }
 
 .btn.med.footer {
