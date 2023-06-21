@@ -40,17 +40,26 @@ img {
 
 .bgc-white {
   background-color: #ffff;
-  padding: 2rem 4rem;
+  padding: 6rem 4rem;
 }
 
 .bgc-grey {
   background-color: #F6F6F6;
-  padding: 2rem 4rem;
+  padding: 6rem 4rem;
 }
 
 .bgc-black {
   background-color: #23272a;
-  padding: 2rem 4rem;
+  padding: 6rem 4rem;
+}
+
+.wave{
+  color: #F6F6F6;
+  display: block;
+}
+
+.wave.upside-down{
+  transform: rotate(180deg);
 }
 
 /* HEADER */
